@@ -10,9 +10,9 @@
 				"-std=c++20",
 				"-stdlib=libstdc++",
 				"-g",
-				"${workspaceFolder}/*.cpp",			
+				"${file}",			
 				"-o",
-				"${workspaceFolder}/app",
+				"${workspaceFolder}/reference/bin/${fileBasenameNoExtension}",
 			],
 			"options": {
 				"cwd": "${fileDirname}"
